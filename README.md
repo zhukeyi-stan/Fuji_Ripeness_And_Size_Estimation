@@ -6,7 +6,6 @@
 2. Install packages:
    
         pip install opencv-python numpy==1.24.1 scipy matplotlib
-
         pip install fairscale transformers
    
 4. Install pytorch:
@@ -20,11 +19,8 @@
 6. Install mmdetection (https://mmdetection.readthedocs.io/en/latest/get_started.html):
    
         pip install -U openmim
-   
         mim install mmengine
-   
         mim install "mmcv==2.1.0"
-   
         mim install mmdet
         
 7. Run Code (Don't forget to change the paths for image, checkpoints, etc.)
