@@ -3,17 +3,30 @@
 ## How-to-use
 
 1. Create a python env
-2. __pip install opencv-python numpy==1.24.1 scipy matplotlib__
-3. Install pytorch: __pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117__
-4. Install Segment Anything: __pip install git+https://github.com/facebookresearch/segment-anything.git__ (https://github.com/facebookresearch/segment-anything)
-5. Install mmdetection:
+2. Install packages:
    
-        __pip install -U openmim__
+        pip install opencv-python numpy==1.24.1 scipy matplotlib
+
+        pip install fairscale transformers
    
-        __mim install mmengine__
+4. Install pytorch:
    
-        __mim install "mmcv==2.1.0"__
+        pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
    
-        __mim install mmdet__
-7. __pip install fairscale transformers__
-8. python3 inference.py (Don't forget to change the paths for image, checkpoints, etc.)
+5. Install Segment Anything(https://github.com/facebookresearch/segment-anything):
+
+        pip install git+https://github.com/facebookresearch/segment-anything.git
+   
+6. Install mmdetection:
+   
+        pip install -U openmim
+   
+        mim install mmengine
+   
+        mim install "mmcv==2.1.0"
+   
+        mim install mmdet
+        
+7. Run Code (Don't forget to change the paths for image, checkpoints, etc.)
+
+        python3 inference.py 
