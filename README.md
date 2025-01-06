@@ -13,11 +13,11 @@
    
         pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
    
-5. Install Segment Anything(https://github.com/facebookresearch/segment-anything):
+5. Install Segment Anything (https://github.com/facebookresearch/segment-anything):
 
         pip install git+https://github.com/facebookresearch/segment-anything.git
    
-6. Install mmdetection:
+6. Install mmdetection (https://mmdetection.readthedocs.io/en/latest/get_started.html):
    
         pip install -U openmim
    
