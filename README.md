@@ -1,5 +1,9 @@
 # Fuji_Ripeness_And_Size_Estimation
 
+## Dataset
+
+Dataset is available at https://www.kaggle.com/datasets/zhukeyi1/fuji-ripeness-and-size-dataset
+
 ## How-to-use
 
 1. Create a python env
