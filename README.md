@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Dataset is available at https://www.kaggle.com/datasets/zhukeyi1/fuji-ripeness-and-size-dataset
+Dataset and checkpoint is available at https://www.kaggle.com/datasets/zhukeyi1/fuji-ripeness-and-size-dataset. (For Segment Anything just use the official checkpoint)
 
 ## How-to-use
 
